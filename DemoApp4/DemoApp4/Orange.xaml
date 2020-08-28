@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoApp4.Orange" Title="Orange forms">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Orchid">
+            <Image Source="orange.png" WidthRequest="200" HeightRequest="200"/>
+            <Label Text="Welcome to Orange page"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                   TextColor="Orange"
+                   FontSize="Large"/>
+            <Button Text="Continue"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
