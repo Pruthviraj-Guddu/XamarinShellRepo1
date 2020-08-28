@@ -11,6 +11,7 @@
     </ShellItem>
     -->
     
+    <!--
     <TabBar>
         <Tab Title="Orange forms" Icon="orange.png">
             <ShellContent>
@@ -23,7 +24,14 @@
             </ShellContent>
         </Tab>
     </TabBar>
-    
-    
-    
+    -->
+
+    <TabBar>
+        <pages:Orange IconImageSource="orange.png"/>
+        <pages:Water IconImageSource="water.png"/>
+    </TabBar>
+
+
+
+
 </Shell>
