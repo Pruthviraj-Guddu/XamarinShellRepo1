@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:pages="clr-namespace:DemoApp4;assembly=DemoApp4"
              x:Class="DemoApp4.FlyoutMainShell">
+    <!--
     <Shell.FlyoutHeaderTemplate>
         <DataTemplate>
             <Grid BackgroundColor="AliceBlue" HeightRequest="200">
@@ -18,6 +19,11 @@
         </DataTemplate>
         
     </Shell.FlyoutHeaderTemplate>
+    -->
+
+    <Shell.FlyoutHeader>
+        <pages:HeaderView/>
+    </Shell.FlyoutHeader>
 
     <FlyoutItem Title="Orange forms" Icon="orange.png">
         <ShellContent ContentTemplate="{DataTemplate pages:Orange}" />
