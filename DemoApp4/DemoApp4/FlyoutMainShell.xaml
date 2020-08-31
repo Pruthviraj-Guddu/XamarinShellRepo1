@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:pages="clr-namespace:DemoApp4;assembly=DemoApp4"
+             x:Class="DemoApp4.FlyoutMainShell">
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="AliceBlue" HeightRequest="200">
+                <Image Aspect="AspectFill"
+                       Source="fruitImg.jpg"
+                       Opacity="0.6" />
+                <Label Text="Fruits and vegitables"
+                       TextColor="DarkOrchid"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+            </Grid>
+        </DataTemplate>
+        
+    </Shell.FlyoutHeaderTemplate>
+
+    <FlyoutItem Title="Orange forms" Icon="orange.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:Orange}" />
+
+    </FlyoutItem>
+    <FlyoutItem Title="Water forms" Icon="water.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:Water}"/>
+
+    </FlyoutItem>
+
+</Shell>

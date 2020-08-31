@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:pages="clr-namespace:DemoApp4;assembly=DemoApp4"
        FlyoutBehavior="Disabled"
+       
              x:Class="DemoApp4.MainShell">
     <!--<ShellItem>
         <ShellContent>
@@ -26,9 +27,22 @@
     </TabBar>
     -->
 
+    <!--
     <TabBar>
         <pages:Orange IconImageSource="orange.png"/>
         <pages:Water IconImageSource="water.png"/>
+    </TabBar>
+    -->
+
+    <TabBar>
+        <Tab Title="Orange forms" Icon="orange.png">
+            <ShellContent ContentTemplate="{DataTemplate pages:Orange}" />
+            
+        </Tab>
+        <Tab Title="Water forms" Icon="water.png">
+            <ShellContent ContentTemplate="{DataTemplate pages:Water}"/>
+            
+        </Tab>
     </TabBar>
 
 

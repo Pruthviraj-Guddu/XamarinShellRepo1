@@ -11,7 +11,8 @@ namespace DemoApp4
             InitializeComponent();
 
             //MainPage = new MainPage();
-            MainPage = new MainShell();
+            //MainPage = new MainShell();
+            MainPage = new FlyoutMainShell();
 
         }
 
