@@ -11,8 +11,9 @@ namespace DemoApp4
             InitializeComponent();
 
             //MainPage = new MainPage();
-            //MainPage = new MainShell();
-            MainPage = new FlyoutMainShell();
+           MainPage = new MainShell();
+            // MainPage = new FlyoutMainShell();
+            Plugin.Toast.CrossToastPopUp.Current.ShowToastMessage("Cahange main page in App.xaml.cs", Plugin.Toast.Abstractions.ToastLength.Short);
 
         }
 

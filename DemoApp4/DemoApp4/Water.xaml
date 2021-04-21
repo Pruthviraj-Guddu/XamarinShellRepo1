@@ -10,7 +10,7 @@
                 HorizontalOptions="CenterAndExpand"
                    TextColor="Firebrick"
                    FontSize="Large"/>
-            <Button Text="Continue"/>
+            <Button Text="ContinueInWater"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

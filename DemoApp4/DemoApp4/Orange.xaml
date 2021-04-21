@@ -10,7 +10,7 @@
                 HorizontalOptions="CenterAndExpand"
                    TextColor="Orange"
                    FontSize="Large"/>
-            <Button Text="Continue"/>
+            <Button Text="ContinueInOrange"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
